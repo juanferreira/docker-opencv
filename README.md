@@ -1,0 +1,1 @@
+Docker image running on Ubuntu 14.04 with open source computer vision (OpenCV) and machine learning software library. For more information about OpenCV visit http://opencv.org/ .
