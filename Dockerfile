@@ -25,6 +25,6 @@ RUN echo "/usr/local/lib" > /etc/ld.so.conf.d/opencv.conf
 RUN ldconfig
 
 # Clean up apt-get cache (helps keep the image size down)
-RUN apt-get remove --purge -y build-essential git cmake
+RUN apt-get remove --purge -y git
 RUN apt-get autoclean && apt-get clean
 RUN rm -rf /var/lib/apt/lists/* /tmp/*
